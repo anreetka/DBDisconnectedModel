@@ -1,5 +1,12 @@
-# DBDisconnectedModel
-`DBDisconnectedModel` is a C# library designed to facilitate the management of disconnected data models using ADO.NET. This library provides tools for handling data operations in scenarios where direct database connections are not available, allowing for efficient data management and manipulation.
+## Overview
+
+### ADO.NET Disconnected Model
+
+The ADO.NET Disconnected Model allows applications to interact with a database without maintaining an ongoing connection. This is achieved by using objects like `DataSet` and `DataTable` that store data in memory. The Disconnected Model is useful in scenarios where:
+
+- The application needs to work with data offline or when network connections are intermittent.
+- Performance can be improved by reducing the number of database round-trips.
+- Batch operations can be performed on data without requiring a constant connection to the database.
 
 ## Features
 
